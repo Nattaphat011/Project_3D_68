@@ -1,0 +1,23 @@
+.profile-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  
+    h2 {
+      margin-bottom: 1rem;
+      color: #333;
+    }
+  
+    .profile-item {
+      margin: 0.75rem 0;
+      font-size: 1rem;
+      strong {
+        width: 120px;
+        display: inline-block;
+        color: #555;
+      }
+    }
+  }

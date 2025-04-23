@@ -1,0 +1,14 @@
+<div class="container py-4">
+    <h2 class="text-center mb-4">บริการของเรา</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let service of services">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">{{ service.title }}</h5>
+            <p class="card-text">{{ service.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

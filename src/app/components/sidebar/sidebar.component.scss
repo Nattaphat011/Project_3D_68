@@ -1,0 +1,42 @@
+.sidebar.collapsed {
+  width: 50px; /* ขนาดย่อ */
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  box-shadow: 5px 0 10px rgb(255, 0, 0);
+ 
+
+  &.sidebar-collapsed {
+    width: 80px;
+
+    .profile, span, label {
+      display: none;
+    }
+  }
+
+  .profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  .nav-link {
+    padding: 10px;
+    color: #333;
+    &:hover, &.active {
+      background-color: #e91e63;
+      color: white;
+      border-radius: 8px;
+    }
+  }
+
+  .toggle-btn {
+    cursor: pointer;
+    padding: 10px;
+    text-align: right;
+  }
+}

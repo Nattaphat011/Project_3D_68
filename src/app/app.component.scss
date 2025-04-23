@@ -1,0 +1,29 @@
+.main-content {
+  padding: 1rem;
+  overflow-x: hidden;
+}
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-md-row {
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}

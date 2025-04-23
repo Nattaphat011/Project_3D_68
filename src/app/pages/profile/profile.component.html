@@ -1,0 +1,8 @@
+<div class="profile-container">
+    <h2>โปรไฟล์ของคุณ</h2>
+    <div class="profile-item"><strong>ชื่อ:</strong> {{ user.firstname }} {{ user.lastname }}</div>
+    <div class="profile-item"><strong>อีเมล:</strong> {{ user.email }}</div>
+    <div class="profile-item"><strong>ที่อยู่:</strong> {{ user.address || '-' }}</div>
+    <div class="profile-item"><strong>บทบาท:</strong> {{ user.role }}</div>
+    <div class="profile-item"><strong>วันที่สร้าง:</strong> {{ user.created_at || '-' }}</div>
+  </div>
